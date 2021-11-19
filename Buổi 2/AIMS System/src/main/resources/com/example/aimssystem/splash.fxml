@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aimssystem.SplashView">
+   <center>
+      <Label text="AIMS" textFill="#1008e1" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </center>
+   <top>
+      <Label text="Nguyễn Năng Sơn 20194158" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>

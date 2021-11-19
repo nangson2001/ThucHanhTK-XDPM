@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="748.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aimssystem.main.CartScreen">
+   <children>
+      <Label layoutX="454.0" text="Nguyễn Năng Sơn 20194158">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="66.0" text="CART" textFill="#350ae1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="1071.0" layoutY="130.0" text="SUBTOTAL: 1976 đ" />
+      <Label layoutX="1071.0" layoutY="189.0" text="Amount: 2173 đ" />
+      <Label layoutX="1288.0" layoutY="189.0" text="VAT(10%)" />
+      <Button layoutX="1132.0" layoutY="291.0" mnemonicParsing="false" text="PLACE ORDER" />
+      <VBox layoutX="8.0" layoutY="101.0" prefHeight="643.0" prefWidth="1047.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="23.0" layoutY="80.0" text="Book 3" />
+                  <Label layoutX="803.0" layoutY="80.0" text="988 VNĐ" />
+                  <ChoiceBox layoutX="883.0" layoutY="75.0" prefWidth="150.0" />
+                  <Button layoutX="107.0" layoutY="75.0" mnemonicParsing="false" text="DELETE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

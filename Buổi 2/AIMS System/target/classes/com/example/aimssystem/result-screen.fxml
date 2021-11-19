@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aimssystem.ResultScreen">
+   <children>
+      <Label layoutX="600.0" layoutY="14.0" text="Nguyễn Năng Sơn 20194158" />
+      <Label layoutX="22.0" layoutY="60.0" text="Payment" textFill="#3b0eee">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="266.0" text="Payment Result" textFill="#12f854">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="637.0" layoutY="452.0" text="Message">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="651.0" layoutY="631.0" mnemonicParsing="false" text="OK" textFill="#e10e0e">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

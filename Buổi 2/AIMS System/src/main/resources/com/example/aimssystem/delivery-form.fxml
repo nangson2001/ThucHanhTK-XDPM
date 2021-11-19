@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aimssystem.DeliveryForm">
+   <children>
+      <Label layoutX="28.0" layoutY="44.0" text="SHIPPING" textFill="#270fc3">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="176.0" layoutY="107.0" text="Name" />
+      <Label layoutX="176.0" layoutY="183.0" text="Phone" />
+      <Label layoutX="176.0" layoutY="268.0" text="City" />
+      <Label layoutX="176.0" layoutY="350.0" text="Address" />
+      <Label layoutX="176.0" layoutY="477.0" prefHeight="21.0" prefWidth="71.0" text="Shipping Intrduction" />
+      <Button layoutX="594.0" layoutY="678.0" mnemonicParsing="false" text="CONFIRM DELIVERY" textFill="#dd1818">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="262.0" layoutY="102.0" prefHeight="31.0" prefWidth="908.0" />
+      <TextField layoutX="262.0" layoutY="178.0" prefHeight="31.0" prefWidth="908.0" />
+      <TextField layoutX="262.0" layoutY="345.0" prefHeight="98.0" prefWidth="908.0" />
+      <TextField layoutX="262.0" layoutY="469.0" prefHeight="156.0" prefWidth="908.0" />
+      <ChoiceBox layoutX="262.0" layoutY="263.0" prefHeight="31.0" prefWidth="287.0" />
+      <Label layoutX="621.0" layoutY="14.0" text="Nguyễn Năng Sơn 20194158" />
+   </children>
+</AnchorPane>

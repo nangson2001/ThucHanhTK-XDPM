@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aimssystem.PaymentForm">
+   <children>
+      <Label layoutX="571.0" layoutY="27.0" text="Nguyễn Năng Sơn 20194158" />
+      <Label layoutX="38.0" layoutY="65.0" text="Payment" textFill="#3913e1">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="144.0" text="Payment method" />
+      <Label layoutX="1034.0" layoutY="155.0" text="Card Number" />
+      <Label layoutX="1034.0" layoutY="259.0" text="Card Holder Name" />
+      <Label layoutX="1034.0" layoutY="356.0" text="Expration Date" />
+      <Label layoutX="1034.0" layoutY="454.0" text="Card Security Code" />
+      <TextField layoutX="1034.0" layoutY="198.0" />
+      <TextField layoutX="1034.0" layoutY="308.0" />
+      <TextField layoutX="1034.0" layoutY="405.0" />
+      <TextField layoutX="1034.0" layoutY="497.0" />
+      <Button layoutX="559.0" layoutY="668.0" mnemonicParsing="false" text="Confirm Payment" textFill="#e10f0f">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <RadioButton layoutX="108.0" layoutY="188.0" mnemonicParsing="false" text="Credid Card" />
+   </children>
+</AnchorPane>
